@@ -1,0 +1,307 @@
+* { margin: 0px; padding: 0px; }
+h1, h2, h3, h4, h5, h6, ul, p { margin: 0px; padding: 0px; }
+header { background: rgb(246, 249, 249); height: 100px; }
+.logo_part { width: 20%; }
+.logo_part img { }
+.menu { width: 31%; }
+.menu ul { list-style: none; display: flex; justify-content: space-between; }
+.menu ul li { }
+.menu ul li a { font-size: 20px; text-decoration: none; text-transform: uppercase; color: rgb(45, 57, 80); }
+.header_content { width: 80%; margin: auto; display: flex; justify-content: space-between; align-items: center; height: 100px; }
+.bg {background-image: url("../images/bg.png");background-position: center center;background-size: cover;background-repeat: no-repeat;height: 800px;width: 100%;display: flex;text-align: center;justify-content: center;align-items: center;}
+.bg_content {}
+.bg_content h1 {font-size: 100px;text-transform: uppercase;margin-bottom: 20px;color: #ffffff;}
+.bg_content p {font-size: 25px;color: #ffffff;}
+.bg_content button {
+    background: azure;padding: 10px 20px;border-radius: 5px;margin-top: 15px;font-size: 20px;text-transform: capitalize;}
+.simple{background: #f6f9f9;}
+.simple_content{
+
+width: 80%;
+
+margin: auto;
+
+text-align: center;
+
+padding: 50px 0;
+}
+.simple_content h2{
+
+font-size: 40px;
+}
+.simple_content p{
+
+font-size: 22px;
+}
+.section_icon{
+
+}
+.icon_contern{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 70px 0;
+}
+.icon{
+
+width: 30%;
+
+text-align: center;
+}
+.icon_img{
+
+height: 70px;
+
+width: 70px;
+
+background: #5fc3ff;
+
+font-size: 35px;
+
+line-height: 65px;
+
+text-align: center;
+
+margin: auto;
+
+margin-bottom: 20px;
+
+color: white;
+}
+.icon h3{
+
+font-size: 24px;
+
+color: #2d3950;
+}
+.icon p{
+
+font-size: 21px;
+
+color: #999999;
+}
+.showchase{
+
+padding: 100px 0;
+
+background: #f6f9f9;
+
+text-align: center;
+}
+.showchase h2{
+    
+font-size: 35px;
+    
+margin-bottom: 20px;
+    
+color: #2d3950;
+}
+.showchase p{
+    
+font-size: 20px;
+    
+color: #909090;
+}
+.img_section{
+
+background: #f6f9f9;
+}
+.img_part{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+padding: 50px 0;
+}
+.img{
+    background-image: url(../images/img5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.parent_img{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+text-align: center;
+
+height: 100%;
+}
+.icon_img_one{width: 50px;height: 50px;/* background: cyan; */color: white;font-size: 30px;margin: 0px 5px;line-height: 50px;border: 3px solid blanchedalmond;}
+.all_img{
+
+width: 30%;
+}
+.all_img img{
+    
+width: 100%;
+    
+margin-bottom: 20px;
+}
+.form_section{
+
+background: #2c364a;
+}
+.from_conten{
+
+width: 35%;
+
+margin: auto;
+
+padding: 80px 0;
+}
+.from_f{
+
+text-align: center;
+}
+.from_f h2{/* padding: 10px 0; */font-size: 45px;color: #ffffff;}
+.from_f p{
+    
+font-size: 16px;
+    
+margin-bottom: 39px;
+    
+color: #ffffff;
+}
+.from_f form{
+
+/* width: 100%; */
+}
+.from_f form input{
+    
+width: 100%;
+    
+padding: 10px 0;
+    
+font-size: 20px;
+    
+margin-bottom: 16px;
+    
+border-radius: 5px;
+    
+background: #2c364a;
+    
+border: 1px solid white;
+}
+.from_f form textarea{
+    
+width: 100%;
+    
+border-radius: 5px;
+    
+font-size: 20px;
+    
+text-transform: capitalize;
+    
+background: #2c364a;
+    
+border: 1px solid white;
+}
+.send_div{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.parend_send{display: flex;width: 33%;justify-content: space-between;}
+.icon_last{
+
+color: white;
+}
+.para{
+
+color: white;
+}
+.send_but{
+
+/* padding: 10px 0; */
+}
+.send_but input{
+    
+padding: 8px 0;
+    
+font-size: 16px;
+    
+text-align: center;
+    
+background: #2c364a;
+    
+border: 1px solid white;
+}
+footer{
+
+background: #f6f9f9;
+}
+.foter_area{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 40px 0;
+}
+.foter_pera{
+
+width: 20%;
+}
+.foter_pera p{
+    
+font-size: 20px;
+    
+color: #999999;
+}
+.parent_foter_icon{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 16%;
+
+font-size: 20px;
+}
+.foter_icon{
+
+width: 50px;
+
+height: 50px;
+
+background: #15a4fa;
+
+margin: 0 2px;
+
+line-height: 60px;
+
+text-align: center;
+
+color: white;
+}
+.foter_icon a{
+    
+color: white;
+}
